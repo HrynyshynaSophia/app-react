@@ -1,0 +1,16 @@
+@import "./styles/general.css";
+@import "./styles/layout/null.css";
+@import "./styles/layout/layout.css";
+
+@import "./components/Header/header.css";
+@import "./components/Header/components/Logo/logo.css";
+@import "./components/Courses/CourseCard/CourseCard.css";
+@import "./components/Courses/Courses.css";
+@import "./components/Courses/SearchBar/SearchBar.css";
+@import "./components/common/Button/button.css";
+@import "./components/common/Input/Input.css";
+@import "./components/Registration/Registration.css";
+@import "./components/Login/Login.css";
+@import "./components/CourseInfo/CourseInfo.css";
+@import './components/CourseForm/CourseForm.css';
+@import './components/ErrorBoundary/ErrorBoundary.css'

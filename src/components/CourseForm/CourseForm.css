@@ -1,0 +1,79 @@
+.courseForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.courseForm__firstPart {
+    margin-bottom: 15px;
+}
+.courseForm__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.courseForm__header button {
+    align-self: flex-end;
+}
+.courseForm__secondPart article {
+    border-radius: 5px;
+    background-color: rgb(230, 237, 241);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+.courseForm__addAuthor .btn {
+    margin: 0 auto;
+}
+.courseForm__secondPart h3 {
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.courseForm__author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.courseForm__author p {
+    overflow-wrap: break-word;
+    width: 9vw;
+    margin: 0 auto;
+}
+.courseForm__duration span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.courseForm__desription textarea {
+    border: 1px solid rgb(212, 217, 217);
+    background-color: rgb(230, 237, 241);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+}
+.authors {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding: 0 2vw 0 1vw;
+}
+.courseForm__secondPart section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.courseForm__emptyAuthorsList {
+    margin: 0 auto;
+}

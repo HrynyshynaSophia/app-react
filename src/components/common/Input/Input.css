@@ -1,0 +1,9 @@
+input{
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 10px;
+    width: 100%;
+}
+input:hover{
+    background-color: rgb(211, 211, 211);
+}

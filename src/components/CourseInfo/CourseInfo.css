@@ -1,0 +1,31 @@
+.coursesInfo_wrapper {
+    border: 1px solid rgb(212, 217, 217);
+    background-color: rgb(230, 237, 241);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+    border-radius: 5px;
+    padding: 20px;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    width: 100%;
+}
+.coursesInfo_wrapper a {
+    color: rgb(136, 136, 136);
+}
+.coursesInfo_wrapper a:hover {
+    color: rgb(0, 0, 0);
+}
+.coursesInfo_wrapper h1 {
+    text-align: center;
+    margin: 2vw 0 3vw 0;
+}
+.coursesInfo_body {
+    display: flex;
+    width: 100%;
+    gap: 2vw;
+}
+.coursesInfo_firstColumn {
+    width: 90%;
+}
+.coursesInfo_secondColumn {
+    width: 60%;
+}

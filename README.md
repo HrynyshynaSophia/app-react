@@ -1,3 +1,7 @@
+## Back-end
+
+To make project work correctly you need to run back-end sever. You can find it by this [link](https://github.com/HrynyshynaSophia/react-app-server)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
